@@ -43,15 +43,9 @@ NNESEESWNWW
 
 ● the next line then always contains the driving instructions (at least one)
 
-● the first line holds the room dimensions (X Y), separated by a single space (all coordinates will be presented in this format)
+### Outputs
 
-● the second line holds the hoover position
-
-● subsequent lines contain the zero or more positions of patches of dirt (one per line)
-
-### Output
-
-The program output is printed to [AMEND TO SPECIFY: the standard output (STDOUT) of the terminal (or equivalent in the browser, console.log()]
+The program output is printed to the standard output (STDOUT) of the terminal.
 
 ● The first line of the program output displays the X and Y coordinates marking the position of the hoover after processing all commands.
 
@@ -63,7 +57,18 @@ Example (matching the input above):
 1
 ```
 
-● DELIVERABLE: Output text file so it can be automatically checked.
+The program also outputs a text file (in the project's root directory) so it can be automatically checked.
 
 
-### How to download and run the program
+# How to download and run the program
+
+### To download:
+```
+git clone git@github.com:eashworth/Robot-Navigator-Ruby.git
+```
+### To run:
+
+```
+$cd robot-navigator-ruby/lib
+$ruby navigator.rb
+```
