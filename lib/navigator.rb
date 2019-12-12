@@ -6,6 +6,8 @@ class Navigator
     @input_file = input_file
   end
 
+  private
+
   def read_file
     file = File.open(@input_file)
     @lines = file.read.split("\n")
@@ -130,6 +132,7 @@ class Navigator
     get_driving_directions_from_input_file
   end
 
+  public
 
   def run_hoover_route
     set_hoover_inputs
