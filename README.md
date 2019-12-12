@@ -72,3 +72,11 @@ git clone git@github.com:eashworth/Robot-Navigator-Ruby.git
 $cd robot-navigator-ruby/lib
 $ruby navigator.rb
 ```
+
+### Testing:
+
+I attempted to TDD the program, but in the time available I was not able to write a successful test for reading the input file. As this was the first step, I eventually made a pragmatic decision to write the program without TDD, and this took all of the time I had available. If I had had more time, I would have gone back to researching suitable tests, with the aim of testing as much of the program as possible, and refactoring further.
+
+### Other languages:
+
+Before beginning this repo, I attempted to write the program using Node.js - an attempt that unfortunately took up most of the time available. I installed Mocha and Chai, but despite getting the test framework up and running (with some sample tests running on a sample program) I was unable to write tests that would enable me to TDD the program in Node.js. I wrote a function to read from the input file, but in the absence of tests, decided that it would be a better idea to write the program in Ruby (which which I am more familiar). I have uploaded the Node.js attempt in case it is of interest: https://github.com/eashworth/Robot-Hoover-Navigator
