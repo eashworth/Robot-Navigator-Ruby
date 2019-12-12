@@ -57,7 +57,7 @@ Example (matching the input above):
 1
 ```
 
-The program also outputs a text file (in the project's root directory) so it can be automatically checked.
+The program also outputs a text file (in robot-navigator-ruby/lib) so it can be automatically checked.
 
 
 # How to download and run the program
